@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <title>Placement Point | Rajdev Yadav</title>
+
+    <!-- css file linked here  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- css file for responsiveness  -->
+    <link rel="stylesheet" href="responsiveness.css">
+    <!-- js file linked here  -->
+    <script src="script.js" defer></script>
+
+    <!-- font awesome links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+     <!-- aos link -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="banner" data-aos="fade-up">
+        <h1>Placement Point</h1>
+        <div class="details"> 
+            <h3 id="date-time"> </h3>
+            <br>
+            <p><i class="fa-solid fa-phone"></i> +91 012 3456 789</p>
+            <p><i class="fa-solid fa-envelope"></i> info@placementpoint.com</p>
+            <p><i class="fa-solid fa-location-dot"></i> New Delhi, India</p> <br>
+            <h3><i class="fa-solid fa-code"></i>  <span>23+ </span> Branches</h3>
+            <h3><i class="fa-solid fa-city"></i>  <span>184+ </span> Companies</h3>
+            <h3><i class="fa-solid fa-trophy"></i>  <span> 19784+ </span> Stories</h3>
+        </div>
+    </div>
+
+    <h3 class="notice" data-aos="fade-up">Please, Fill This Form Completely So That We Can Provide You Better Opportunities Which Right Fit For Your Job Profile And Skills. </h3>
+    <div class="person-box box" data-aos="fade-up">
+        <h2><i class="fa-solid fa-user-tie"></i> Personal Information</h2>
+        <div class="form-controls person-info-box">
+            <div class="form-control">
+                <label for="name"><i class="fa-solid fa-user"></i> Full Name</label>
+                <input type="text" id="name" placeholder="Enter Here">
+            </div>
+            <div class="form-control">
+                <label for="phone"><i class="fa-solid fa-phone"></i> Phone Number</label>
+                <input type="text" id="phone" placeholder="Enter Here">
+            </div>
+            <div class="form-control">
+                <label for="email"><i class="fa-solid fa-envelope"></i> Email Address</label>
+                <input type="email" id="email" placeholder="Enter Here">
+            </div>
+            <div class="form-control">
+                <label for="role"><i class="fa-solid fa-briefcase"></i> Job Profile</label>
+                <input type="text" id="role" placeholder="Enter Here">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="edu-box box" data-aos="fade-up">
+        <h2><i class="fa-solid fa-school"></i> Education</h2>
+        <ul id="edu-list">
+            <li>
+                <div class="edu-box-form">
+                    <span>1</span>
+                    <div class="full-form-control">
+                        <input type="text" placeholder="Degree">
+                    </div>
+                    <div class="full-form-control">
+                        <input type="text" placeholder="University Name">
+                    </div>
+                    <div class="form-controls">
+                        <div class="form-control">
+                            <input type="number" placeholder="Started Year">
+                        </div>
+                        <div class="form-control">
+                            <input type="number" placeholder="Completed Year">
+                        </div>
+    
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="btn-group">
+            <button id="addEdu"><i class="fa-solid fa-plus"></i> Add New</button>
+        </div>
+    </div>
+
+    <div class="ski-box box" data-aos="fade-up">
+        <h2><i class="fa-solid fa-star"></i> Skills</h2>
+        <ul id="ski-list">
+            
+        </ul>
+        <div class="btn-group">
+            <input type="text" placeholder="Enter Your Skill One By One" id="user-ski">
+            <button id="addSki"><i class="fa-solid fa-plus"></i> Add Skill</button>
+        </div>
+    </div>
+
+    <div class="exp-box box" data-aos="fade-up">
+        <h2><i class="fa-solid fa-briefcase"></i> Experience</h2>
+        <ul id="exp-list">
+            <li class="exp-box-form">
+                <span>1</span>
+                <div class="full-form-control">
+                <input type="text" placeholder="Job Profile">
+                </div>
+                <div class="full-form-control">
+                <input type="text" placeholder="Company Name">
+                </div>
+
+                <div class="form-controls">
+                    <div class="form-control">
+                    <input type="text" placeholder="Year">
+                    </div>
+                    <div class="form-control">
+                    <input type="text" placeholder="Company Address">
+                    </div>
+                </div>
+                <div class="full-form-control">
+                    <textarea placeholder="What did you did there?"></textarea>
+                </div>
+               
+            </li>
+        </ul>
+        <div class="btn-group">
+            <button id="addExp"><i class="fa-solid fa-plus"></i> Add New</button>
+        </div>
+    </div>
+
+    <div class="btn-group box" data-aos="fade-up">
+        <button>Reset</button>
+        <button>Submit</button>
+    </div>
+
+    <footer data-aos="fade-up">
+        <p>Made With 💖 By Rajdev Yadav</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:30,
+        duration:700,
+      });
+    </script>
+</body>
+
+</html>

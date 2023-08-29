@@ -1,0 +1,287 @@
+/* google fonts links  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f1f1ff;
+    background: linear-gradient(to right, #f1f1ff, #ddd);
+}
+
+/* banner style */
+.banner {
+    height: 60vh;
+    background: url('./img/bg-01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.details{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #e88019;
+    background: linear-gradient(to left, orange, #e9551f);
+
+    padding: 1rem;
+    border-radius: 5px 1rem;
+    color: #fff;
+}
+.details i{
+    margin-right: .5rem;
+}
+.details span{
+    font-size: 28px;
+}
+.banner h1 {
+font-size: 3rem;
+    background-color: #f1f1ff;
+    color: #cd7112;
+    padding: 1rem 2rem;
+    border-radius: 10px 1rem;
+}
+
+/* box style  */
+.box {
+    padding: 1rem;
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #00000046;
+}
+.box h2{
+    color: #cd7112;
+}
+.notice {
+    background-color: #fff;
+    color: #cd7112;
+    /* color: #777; */
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    
+
+}
+
+.form-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-control {
+    width: 48%;
+    margin: .5rem auto;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    height: 45px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px #777;
+    border-radius: 4px;
+    margin-top: .5rem;
+    color: #777;
+    transition: all .5s ease;
+}
+
+.form-control input:focus {
+    box-shadow: 0px 0px 10px #777;
+}
+
+.form-control label {
+    color: #777;
+}
+label i{
+    margin-right: .3rem;
+}
+/* personal style */
+.person-info-box{
+    position: relative;
+    box-shadow: 0px 0px 3px #777;
+    border-radius: 4px;
+    padding: .5rem;
+    margin: .5rem auto;
+}
+/* .edu-box style  */
+.edu-box ul{
+    list-style: none;
+}
+.edu-box .form-controls {
+    width: 100%;
+}
+
+.edu-box .form-control {
+    width: 49%;
+}
+#edu-list li{
+    margin: 1rem 0;
+}
+.edu-box-form {
+    position: relative;
+    box-shadow: 0px 0px 3px #777;
+    border-radius: 4px;
+    padding: .5rem;
+    margin: .5rem auto;
+
+}
+
+.edu-box-form span {
+    position: absolute;
+    background-color: #cd7112;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: 10px;
+    left: -10px;
+
+}
+
+.full-form-control {
+    margin: .5rem;
+}
+
+.full-form-control input {
+    width: 100%;
+    padding: 10px;
+    height: 45px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px #777;
+    border-radius: 4px;
+    margin-top: .5rem;
+    color: #777;
+    transition: all .5s ease;
+}
+
+.full-form-control input:focus {
+    box-shadow: 0px 0px 10px #777;
+}
+.full-form-control textarea{
+    width: 100%;
+    padding: 10px;
+    height: 120px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px #777;
+    border-radius: 4px;
+    margin-top: .5rem;
+    color: #777;
+    transition: all .5s ease;  
+    resize: none;
+}
+.full-form-control textarea:focus{
+    box-shadow: 0px 0px 10px #777;
+
+}
+/* ============= btn gruop style ============  */
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-group input{
+    height: 35px;
+    padding: 10px;
+    width: 89%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3px #777;
+    border-radius: 4px;
+    color: #777;
+    transition: all .5s ease;
+}
+.btn-group input:focus {
+    box-shadow: 0px 0px 10px #777;
+}
+.btn-group button{
+height: 35px;
+width: 10%;
+cursor: pointer;
+outline: none;
+border: none;
+color: #fff;
+border-radius: 4px;
+background-color: #e88019;
+transition: all .5s ease;
+}
+.btn-group button:hover{
+background-color: #cd7112;
+}
+
+
+/* skills style  */
+.ski-box ul{
+    margin: .5rem 0 1rem;
+    padding-left: 2rem;
+    color: #777;
+}
+.ski-box button, .ski-box input{
+    height: 45px;
+}
+
+/* experience style  */
+.exp-box ul{
+    list-style: none;
+}
+.exp-box .form-control {
+    width: 49%;
+    margin-top: 0;
+}
+
+.exp-box-form {
+    position: relative;
+    box-shadow: 0px 0px 3px #777;
+    border-radius: 4px;
+    padding: .5rem;
+    margin: .5rem auto;
+
+}
+
+.exp-box-form span {
+    position: absolute;
+    background-color: #cd7112;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: 10px;
+    left: -10px;
+
+}
+#exp-list li{
+    margin: 1rem 0;
+}
+/* ---------------  */
+footer{
+    text-align: center;
+    background: linear-gradient(to right, orange, orangered);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem;
+}

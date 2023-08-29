@@ -1,0 +1,59 @@
+/* for phone screen  */
+@media (min-width:280px) and (max-width:768px) {
+    .banner {
+        height: 100vh;
+        background: url('./img/bg-02.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        padding: 1rem .5rem;
+    }
+
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .details {
+        position: static;
+        margin-top: 1rem;
+        background: linear-gradient(to left, #ffa600c9, #ed4c12db);
+    }
+
+    .details i {
+        margin: 0;
+    }
+
+    .details span {
+        font-size: 24px;
+    }
+
+    .box h2 {
+        font-size: 18px;
+    }
+
+    .notice {
+        font-size: 18px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .edu-box-form .form-control {
+        width: 96%;
+    }
+
+    .btn-group {
+        flex-wrap: wrap;
+    }
+
+    .btn-group button,
+    .btn-group input {
+        width: 100%;
+        margin-top: .5rem;
+    }
+    .exp-box-form .form-control {
+        width: 95%;
+    }
+}
